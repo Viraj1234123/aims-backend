@@ -8,7 +8,7 @@ import authRoutes from './routes/auth.routes.js';
 import {sequelize} from './db/index.js';
 import dotenv from "dotenv"
 import cors from 'cors';
-//import { WebSocketServer } from 'ws';
+import { WebSocketServer } from 'ws';
 
 dotenv.config();
 
