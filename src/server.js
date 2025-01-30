@@ -33,17 +33,17 @@ sequelize.sync()
   .then(() => {
     const server = app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
-    // const wss = new WebSocketServer({ server });
-    //   wss.on('connection', ws => {
-    //     ws.on('message', message => {
-    //       console.log(`Received message => ${message}`);
-    //       wss.clients.forEach(function each(client) {
-    //         if (client.readyState === WebSocket.OPEN) {
-    //             client.send(`${message}`);
-    //         }
-    //     });
-    //   });
-    // });
+    const wss = new WebSocketServer({ server });
+      wss.on('connection', ws => {
+        ws.on('message', message => {
+          console.log(`Received message => ${message}`);
+          wss.clients.forEach(function each(client) {
+            if (client.readyState === WebSocket.OPEN) {
+                client.send(`${message}`);
+            }
+        });
+      });
+    });
     });
   })
   .catch(error => console.error('Error starting server:', error));
