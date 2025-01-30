@@ -1,0 +1,47 @@
+[
+  {
+    "courseCode": "CS304",
+    "courseTitle": "Computer Networks",
+    "academicSession": "2024:II",
+    "instructorId": 1,
+    "offeringDepartment": "Computer Science",
+    "status": "Running",
+    "credits": 4
+  },
+  {
+    "courseCode": "CS305",
+    "courseTitle": "Software Engineering",
+    "academicSession": "2024:II",
+    "instructorId": 2,
+    "offeringDepartment": "Computer Science",
+    "status": "Running",
+    "credits": 4
+  },
+  {
+    "courseCode": "CS306",
+    "courseTitle": "Theory of Computation",
+    "academicSession": "2024:II",
+    "instructorId": 3,
+    "offeringDepartment": "Computer Science",
+    "status": "Running",
+    "credits": 3
+  },
+  {
+    "courseCode": "CP301",
+    "courseTitle": "Capstone Project",
+    "academicSession": "2024:II",
+    "instructorId": 4,
+    "offeringDepartment": "Computer Science",
+    "status": "Running",
+    "credits": 3
+  },
+  {
+    "courseCode": "HS301",
+    "courseTitle": "Industrial Management",
+    "academicSession": "2024:II",
+    "instructorId": 5,
+    "offeringDepartment": "Humanities",
+    "status": "Running",
+    "credits": 3
+  }
+]

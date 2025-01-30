@@ -1,0 +1,42 @@
+[
+  {
+    "firstName": "Sudeepta",
+    "lastName": "Mishra",
+    "email": "2022csb1143+f1@iitrpr.ac.in",
+    "phoneNumber": "8876543211",
+    "department": "Computer Science",
+    "isAdvisor": false
+  },
+  {
+    "firstName": "Balwinder",
+    "lastName": "Sodhi",
+    "email": "2022csb1143+f2@iitrpr.ac.in",
+    "phoneNumber": "8876543212",
+    "department": "Computer Science",
+    "isAdvisor": true
+  },
+  {
+    "firstName": "Anil",
+    "lastName": "Shukla",
+    "email": "2022csb1143+f3@iitrpr.ac.in",
+    "phoneNumber": "8876543213",
+    "department": "Computer Science",
+    "isAdvisor": false
+  },
+  {
+    "firstName": "Puneet",
+    "lastName": "Goyal",
+    "email": "2022csb1143+f4@iitrpr.ac.in",
+    "phoneNumber": "8876543214",
+    "department": "Computer Science",
+    "isAdvisor": true
+  },
+  {
+    "firstName": "Ravi",
+    "lastName": "Gupta",
+    "email": "2022csb1143+f5@iitrpr.ac.in",
+    "phoneNumber": "8876543215",
+    "department": "Humanities",
+    "isAdvisor": false
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "firstName": "Vishal",
+    "lastName": "Garg",
+    "dateOfBirth": "2004-05-10",
+    "gender": "M",
+    "email": "2022csb1143+s1@iitrpr.ac.in",
+    "phoneNumber": "9876543210",
+    "address": "123 Main Street, Chandigarh",
+    "rollNo": "2022CSB1143",
+    "department": "Computer Science",
+    "degree": "B.Tech",
+    "yearOfEntry": 2022
+  },
+  {
+    "firstName": "Anjali",
+    "lastName": "Sharma",
+    "dateOfBirth": "2003-08-15",
+    "gender": "F",
+    "email": "2022csb1143+s2@iitrpr.ac.in",
+    "phoneNumber": "9876543211",
+    "address": "456 Elm Street, Chandigarh",
+    "rollNo": "2022CSB1144",
+    "department": "Computer Science",
+    "degree": "B.Tech",
+    "yearOfEntry": 2022
+  },
+  {
+    "firstName": "Rohit",
+    "lastName": "Verma",
+    "dateOfBirth": "2004-01-20",
+    "gender": "M",
+    "email": "2022csb1143+s3@iitrpr.ac.in",
+    "phoneNumber": "9876543212",
+    "address": "789 Oak Street, Chandigarh",
+    "rollNo": "2022CSB1145",
+    "department": "Computer Science",
+    "degree": "B.Tech",
+    "yearOfEntry": 2022
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Singh",
+    "dateOfBirth": "2003-11-25",
+    "gender": "F",
+    "email": "2022csb1143+s4@iitrpr.ac.in",
+    "phoneNumber": "9876543213",
+    "address": "101 Pine Street, Chandigarh",
+    "rollNo": "2022CSB1146",
+    "department": "Computer Science",
+    "degree": "B.Tech",
+    "yearOfEntry": 2022
+  },
+  {
+    "firstName": "Amit",
+    "lastName": "Kumar",
+    "dateOfBirth": "2004-03-30",
+    "gender": "M",
+    "email": "2022csb1143+s5@iitrpr.ac.in",
+    "phoneNumber": "9876543214",
+    "address": "202 Maple Street, Chandigarh",
+    "rollNo": "2022CSB1147",
+    "department": "Computer Science",
+    "degree": "B.Tech",
+    "yearOfEntry": 2022
+  }
+]
