@@ -30,7 +30,7 @@ app.use('/api/v1/enrollment', enrollmentRoutes);
 app.use('/api/v1/auth', authRoutes);
 
 app.route('/welcome').get((req, res) => {
-  res.json({ message: 'Welcome to the AIMS API' });
+  res.status(200);
 });
 
 sequelize.sync()
