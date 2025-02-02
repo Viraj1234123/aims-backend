@@ -30,7 +30,7 @@ app.use('/api/v1/enrollment', enrollmentRoutes);
 app.use('/api/v1/auth', authRoutes);
 
 app.route('/welcome').get((req, res) => {
-  res.status(200).json({'Welcome'});
+  res.status(200).json({message:'Welcome'});
 });
 
 sequelize.sync()
