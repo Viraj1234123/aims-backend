@@ -59,6 +59,43 @@ export const sendOTP = async (req, res) => {
   }
 };
 
+export const sendOTPTest = async (req, res) => {
+  try {
+    const { email } = req.body;
+    const otp = generateOTP();
+    
+    let user;
+    let role;
+
+    user = await Student.findOne({ where: { email } });
+    if (user) {
+      role = 'student';
+    } else {
+      user = await Faculty.findOne({ where: { email } });
+      if (user) {
+        role = 'faculty';
+      } else {
+        user = await Admin.findOne({ where: { email } });
+        if (user) {
+          role = 'admin';
+        }
+      }
+    }
+
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    const otpExpiresAt = new Date(Date.now() + 1 * 60 * 1000);
+
+    user.otp = '0000';
+    user.otpExpiresAt = otpExpiresAt;
+    await user.save();
+
+    return res.status(200).json({ message: 'OTP sent successfully', role });
+    
+};
+
 
 // Verify OTP
 export const verifyOTP = async (req, res) => {
