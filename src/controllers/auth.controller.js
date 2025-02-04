@@ -93,6 +93,9 @@ export const sendOTPTest = async (req, res) => {
     await user.save();
 
     return res.status(200).json({ message: 'OTP sent successfully', role });
+  }catch (error) {
+    res.status(500).json({ message: error.message });
+  }
     
 };
 
